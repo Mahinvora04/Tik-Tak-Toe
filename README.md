@@ -40,7 +40,7 @@ This project doesn't have any external dependencies, and no server is required. 
 3. Enjoy the game!
 
 ### Screenshots
-![Tic Tac Toe Screenshot](screenshot.png) *(Add a screenshot image to the repository if desired)*
+![Tic Tac Toe Screenshot](screenshot.png) 
 
 ### License
 This project is open source and available under the [MIT License](LICENSE).
