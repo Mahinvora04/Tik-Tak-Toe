@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: url("Green Tic Tac Toe Pattern Design Art Print.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  background-color: rgba(240, 248, 255, 0.352);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vh;
+  width: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vh;
+  width: 18vh;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 16px rgb(31, 31, 31, 0.3);
+  font-size: 8vmin;
+  background-color: aliceblue;
+  color: #191913;
+  cursor: pointer;
+}
+
+#reset-button {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #191913;
+  color: #888;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#new-game-btn {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #191913;
+  color: #888;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  width: 150px;
+  cursor: pointer;
+}
+
+#msg {
+  color: black;
+  font: 8vmin;
+  background-color: rgba(240, 248, 255, 0.45);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4;
+}
+
+.hide {
+  display: none;
+}
+
+#player1,
+#player2 {
+  padding: 4px;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.box {
+  font-size: 12px; /* Default font size */
+  transition: font-size 0.3s ease, color 0.3s; /* Smooth transitions for font size and color */
+}
